@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E315F9222216C61B005BE389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E315F9212216C61B005BE389 /* main.m */; };
+		E315F92B2216C683005BE389 /* NSArray+RemoveDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = E315F92A2216C683005BE389 /* NSArray+RemoveDuplicate.m */; };
+		E315F92E221A5B15005BE389 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E315F92D221A5B15005BE389 /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		E315F91E2216C61B005BE389 /* ArrayRemoveDuplicate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayRemoveDuplicate; sourceTree = BUILT_PRODUCTS_DIR; };
 		E315F9212216C61B005BE389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E315F9292216C683005BE389 /* NSArray+RemoveDuplicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+RemoveDuplicate.h"; sourceTree = "<group>"; };
+		E315F92A2216C683005BE389 /* NSArray+RemoveDuplicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RemoveDuplicate.m"; sourceTree = "<group>"; };
+		E315F92C221A5B15005BE389 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		E315F92D221A5B15005BE389 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		E315F9202216C61B005BE389 /* ArrayRemoveDuplicate */ = {
 			isa = PBXGroup;
 			children = (
+				E315F9282216C655005BE389 /* Category */,
+				E315F92C221A5B15005BE389 /* TestObject.h */,
+				E315F92D221A5B15005BE389 /* TestObject.m */,
 				E315F9212216C61B005BE389 /* main.m */,
 			);
 			path = ArrayRemoveDuplicate;
+			sourceTree = "<group>";
+		};
+		E315F9282216C655005BE389 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E315F9292216C683005BE389 /* NSArray+RemoveDuplicate.h */,
+				E315F92A2216C683005BE389 /* NSArray+RemoveDuplicate.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E315F92B2216C683005BE389 /* NSArray+RemoveDuplicate.m in Sources */,
+				E315F92E221A5B15005BE389 /* TestObject.m in Sources */,
 				E315F9222216C61B005BE389 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
