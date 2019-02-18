@@ -6,8 +6,9 @@ A Category for NSArray Remove Duplicate
     $ [mArray arrayByRemoveDuplicate]
   Remove duplicate by the element itself.  Fliter by pointer.
   
-  of
-      $ [mArray arrayByRemoveDuplicateWithPropertyKeyPath:@"someProperty"]
+ ####    or
+  
+    $ [mArray arrayByRemoveDuplicateWithPropertyKeyPath:@"someProperty"]
   Remove duplicate by the element it's property(keyPath).  Fliter by property's pointer.
   or you can overwrite property's -(NSUInteger)hash method to implement more function.
   
